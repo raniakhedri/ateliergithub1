@@ -1,3 +1,8 @@
+#ifndef Image_H
+#define Image_H
+#include <SDL/SDL.h>
+#include <SDL/SDL_background.h>
+
 typedef struct
 {
 SDL_Surface *perso;
