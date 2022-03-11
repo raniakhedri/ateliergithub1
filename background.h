@@ -11,12 +11,6 @@ typedef struct
   SDL_Rect scroll;
 }Background;
 
-typedef struct
-{SDL_Surface *minimap;
-SDL_Surface *point;
-SDL_Rect posminimap;
-SDL_Rect pospoint;
-}minimap;
 
 void initBack(Background *b);
 void afficherBack(Background b,SDL_Surface *ecran);
