@@ -21,6 +21,5 @@ void initBack(Background *b);
 void afficherBack(Background b,SDL_Surface *ecran);
 void animerBackground( Background * e);
 int collisionPP( Personne p, SDL_Surface * Masque);
-void scrolling (background * b, int direction, int pasAvancement);
-void scrolling (SDL_Rect * b, int direction ,int pasAvancement);
+void scrolling (Background * b, int direction, int pasAvancement);
 #endif
